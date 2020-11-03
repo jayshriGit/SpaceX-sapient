@@ -39,25 +39,3 @@ describe('SpacexLaunchService', () => {
     });
   });
 });
-
-// describe('SpacexLaunchService', () => {
-//   let service: SpacexLaunchService;
-//   let http;
-//   beforeEach(() => {
-//     http = {
-//       get: of(SpaceXLaunchDetails),
-//     };
-//     service = new SpacexLaunchService(http);
-//   });
-
-//   it('should be created', () => {
-//     expect(service).toBeTruthy();
-//   });
-
-//   it('should return response from observable', (done: DoneFn) => {
-//     service.getLaunchDetails().subscribe((value) => {
-//       expect(value).toBe(http.get);
-//       done();
-//     });
-//   });
-// });
